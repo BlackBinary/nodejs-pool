@@ -25,7 +25,7 @@ ALTER TABLE pool.ports CONVERT TO CHARACTER SET utf8 COLLATE utf8_general_ci;
 ALTER TABLE pool.shapeshiftTxn CONVERT TO CHARACTER SET utf8 COLLATE utf8_general_ci;
 ALTER TABLE pool.transactions CONVERT TO CHARACTER SET utf8 COLLATE utf8_general_ci;
 ALTER TABLE pool.users CONVERT TO CHARACTER SET utf8 COLLATE utf8_general_ci;
-ALTER TABLE pool.xmrtoTxn CONVERT TO CHARACTER SET utf8 COLLATE utf8_general_ci;
+ALTER TABLE pool.etntoTxn CONVERT TO CHARACTER SET utf8 COLLATE utf8_general_ci;
 ```
 
 2/25/2017

@@ -109,15 +109,15 @@
     "item": "address",
     "item_value": "127.0.0.1",
     "item_type": "string",
-    "Item_desc": "Monero Daemon RPC IP"
+    "Item_desc": "Electroneum Daemon RPC IP"
   },
   {
     "id": 16,
     "module": "daemon",
     "item": "port",
-    "item_value": "18081",
+    "item_value": "26968",
     "item_type": "int",
-    "Item_desc": "Monero Daemon RPC Port"
+    "Item_desc": "Electroneum Daemon RPC Port"
   },
   {
     "id": 17,
@@ -125,15 +125,15 @@
     "item": "address",
     "item_value": "127.0.0.1",
     "item_type": "string",
-    "Item_desc": "Monero Daemon RPC Wallet IP"
+    "Item_desc": "Electroneum Daemon RPC Wallet IP"
   },
   {
     "id": 18,
     "module": "wallet",
     "item": "port",
-    "item_value": "37458",
+    "item_value": "36968",
     "item_type": "int",
-    "Item_desc": "Monero Daemon RPC Wallet Port"
+    "Item_desc": "Electroneum Daemon RPC Wallet Port"
   },
   {
     "id": 21,
@@ -221,7 +221,7 @@
     "item": "exchangeMin",
     "item_value": "5",
     "item_type": "float",
-    "Item_desc": "Minimum XMR balance for payout to exchange/payment ID"
+    "Item_desc": "Minimum xmr balance for payout to exchange/payment ID"
   },
   {
     "id": 33,
@@ -229,7 +229,7 @@
     "item": "walletMin",
     "item_value": ".3",
     "item_type": "float",
-    "Item_desc": "Minimum XMR balance for payout to personal wallet"
+    "Item_desc": "Minimum xmr balance for payout to personal wallet"
   },
   {
     "id": 34,
@@ -237,7 +237,7 @@
     "item": "devDonation",
     "item_value": "5",
     "item_type": "float",
-    "Item_desc": "Donation to XMR core development"
+    "Item_desc": "Donation to xmr core development"
   },
   {
     "id": 35,
@@ -285,7 +285,7 @@
     "item": "feesForTXN",
     "item_value": "10",
     "item_type": "int",
-    "Item_desc": "Amount of XMR that is left from the fees to pay miner fees."
+    "Item_desc": "Amount of xmr that is left from the fees to pay miner fees."
   },
   {
     "id": 41,
@@ -293,13 +293,13 @@
     "item": "maxTxnValue",
     "item_value": "250",
     "item_type": "int",
-    "Item_desc": "Maximum amount of XMR to send in a single transaction"
+    "Item_desc": "Maximum amount of xmr to send in a single transaction"
   },
   {
     "id": 42,
     "module": "payout",
     "item": "shapeshiftPair",
-    "item_value": "xmr_btc",
+    "item_value": "etn_btc",
     "item_type": "string",
     "Item_desc": "Pair to use in all shapeshift lookups for auto BTC payout"
   },
@@ -307,7 +307,7 @@
     "id": 43,
     "module": "general",
     "item": "coinCode",
-    "item_value": "XMR",
+    "item_value": "xmr",
     "item_type": "string",
     "Item_desc": "Coincode to be loaded up w/ the shapeshift getcoins argument."
   },
@@ -331,7 +331,7 @@
     "id": 46,
     "module": "payout",
     "item": "bestExchange",
-    "item_value": "xmrto",
+    "item_value": "etnto",
     "item_type": "string",
     "Item_desc": "Current best exchange"
   },

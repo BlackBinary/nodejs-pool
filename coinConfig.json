@@ -1,13 +1,13 @@
 {
-  "xmr": {
-    "funcFile": "./lib/coins/xmr.js",
-    "paymentFile": "./payment_systems/xmr.js",
+  "etn": {
+    "funcFile": "./lib/coins/etn.js",
+    "paymentFile": "./payment_systems/etn.js",
     "sigDigits": 1000000000000,
-    "shapeshift": "xmr_btc",
-    "xmrTo": true,
-    "name": "Monero",
+    "shapeshift": "etn_btc",
+    "etnTo": true,
+    "name": "Electroneum",
     "mixIn": 4,
-    "shortCode": "XMR"
+    "shortCode": "xmr"
   },
   "krb": {
     "funcFile": "./lib/coins/krb.js",
